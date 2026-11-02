@@ -25,4 +25,3 @@ if __name__ == "__main__":
     file = open("todo_all_employees.json", "w")
     json.dump(data, file)
     file.close()
-

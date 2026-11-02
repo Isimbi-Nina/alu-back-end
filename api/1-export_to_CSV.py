@@ -18,4 +18,3 @@ if __name__ == "__main__":
             user_id, username, todo.get("completed"), todo.get("title"))
         file.write(line)
     file.close()
-

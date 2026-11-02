@@ -27,4 +27,3 @@ if __name__ == "__main__":
     file = open(user_id + ".json", "w")
     json.dump(data, file)
     file.close()
-
